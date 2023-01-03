@@ -1,21 +1,24 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DockTabFrameWork", "DockTabFrameWork.vcproj", "{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DockTabFrameWork", "DockTabFrameWork.vcxproj", "{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}"
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}.Debug.ActiveCfg = Debug|Win32
-		{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}.Debug.Build.0 = Debug|Win32
-		{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}.Release.ActiveCfg = Release|Win32
-		{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}.Release.Build.0 = Release|Win32
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}.Debug|x86.ActiveCfg = Debug|Win32
+		{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}.Debug|x86.Build.0 = Debug|Win32
+		{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}.Release|x86.ActiveCfg = Release|Win32
+		{E16E02CB-5E77-41F1-A1FB-5922D9B2B014}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+		SolutionGuid = {2F2779F1-2527-4E19-A8F6-BCAC02087CC7}
 	EndGlobalSection
 EndGlobal
